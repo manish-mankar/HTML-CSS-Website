@@ -13,7 +13,6 @@ nav {
   position: fixed;
   background: #1b1b1b;
   width: 100%;
-  padding: 10px 0;
   z-index: 12;
 }
 nav .menu {
@@ -27,7 +26,7 @@ nav .menu {
 .menu .logo a {
   text-decoration: none;
   color: #fff;
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 600;
 }
 .menu ul {
@@ -165,6 +164,7 @@ section p, section form {
 .feedback-container form {
   display: flex;
   flex-direction: column;
+  width: 400px;
 }
 
 .feedback-container form input,
@@ -192,10 +192,10 @@ section p, section form {
 }
 
 footer {
-  background: #333;
+  background: #1b1b1b;
   color: #fff;
   text-align: center;
-  padding: 20px 0;
+  padding: 10px 0;
 }
 
 @media (max-width: 768px) {
@@ -250,3 +250,37 @@ footer {
   transform: translateY(-10px);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
+
+.card-image {
+  height: 200px;
+  width: 260px;
+  border-radius: 5px;
+}
+
+.contact-container  {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
+.contact-img {
+  height: 380px;
+  width: 350px;
+  margin-left: 200px;
+}
+
+.contact-list {
+  width: 600px;
+}
+
+.contact-list p {
+  margin-bottom: 10px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+
